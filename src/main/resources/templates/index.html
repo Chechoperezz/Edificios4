@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Proyecto Edificios</title>
+</head>
+<body>
+<h1>Bienvenido al Sistema de Edificios</h1>
+<p>Selecciona una opción:</p>
+<ul>
+  <li><a th:href="@{/usuario/login}">Login de Usuario</a></li>
+  <li><a th:href="@{/usuario/agregar}">Agregar Usuario</a></li>
+  <li><a th:href="@{/edificio/agregar}">Agregar Edificio</a></li>
+</ul>
+</body>
+</html>
